@@ -10,7 +10,7 @@ import { cn } from '@/lib/utils'
 const navItems= [
   {label: 'Home', href: '/'},
   {label: 'Companions', href: '/companions'},
-  {label: 'My Jpurney', href: '/my-journey'}
+  {label: 'My Journey', href: '/my-journey'}
 ]
 const NavItems = () => {
   const pathname = usePathname();
