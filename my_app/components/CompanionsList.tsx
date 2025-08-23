@@ -16,7 +16,7 @@ import Image from "next/image";
 interface CompanionListProps {
   title: string;
   companions: Companion[];
-  classNames: string;
+  classNames?: string;
 
 }
 const CompanionsList = ({ title, companions, classNames }: CompanionListProps) => {
